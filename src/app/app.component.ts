@@ -21,7 +21,6 @@ export class AppComponent {
 
 
   async pdfExport() {
-    debugger
 
     var response = await this.getData().subscribe({
       next: (response) => {
